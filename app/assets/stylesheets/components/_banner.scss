@@ -1,18 +1,9 @@
 .banner {
   background-size: cover;
   background-position: center;
-  background-color: #ffccf9;
+  background-color: #ffb6c1;
   padding: 50px 0;
   position: relative;
-}
-
-.banner h1 {
-  margin: 0;
-  color: white;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  font-size: 32px;
-  font-weight: bold;
-  padding-bottom: 80px;
 }
 
 .banner p {
@@ -23,7 +14,9 @@
 }
 
 .banner h1 {
-  color: #b8fff4;
+  margin: 0;
+  color: #88fff4;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
   font-size: 90px;
   position: absolute;
