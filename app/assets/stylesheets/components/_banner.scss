@@ -1,7 +1,8 @@
 .banner {
   background-size: cover;
   background-position: center;
-  background-color: #ffb6c1;
+  // background-color: #ffb6c1;
+  background-image: url("https://image.shutterstock.com/image-vector/retro-delicate-wedding-banner-pink-600w-1678659205.jpg");
   padding: 50px 0;
   position: relative;
 
@@ -20,13 +21,14 @@
   text-align: center;
   font-size: 60px;
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform:translate(-50%,-50%);
 }
 
 .yoga {
   height: 120px;
+
 }
 
 .banner-links a {
@@ -48,6 +50,31 @@
   margin: 0;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   font-size: 26px;
+}
+
+.banner-flower {
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 40px;
+  // object-fit:cover;
+  object-fit: cover;
+
+}
+
+.flower-div {
+  width:100%;
+  height:60px;
+  position:relative;
+  overflow:hidden;
+}
+
+.flower-div img {
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin: auto;
+  width:100%;
+  mix-blend-mode: multiply;
 }
 
 hr {
