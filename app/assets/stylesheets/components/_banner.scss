@@ -4,6 +4,7 @@
   background-color: #ffb6c1;
   padding: 50px 0;
   position: relative;
+
 }
 
 .banner p {
@@ -15,10 +16,9 @@
 
 .banner h1 {
   margin: 0;
-  color: #88fff4;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
-  font-size: 90px;
+  font-size: 60px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -26,5 +26,33 @@
 }
 
 .yoga {
-  height: 150px;
+  height: 120px;
+}
+
+.banner-links a {
+  color: #393E5B;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+  justify-content: center;
+}
+
+.banner-links a:hover {
+  opacity: 1;
+}
+
+.banner ul li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 26px;
+}
+
+hr {
+	background-image: url(https://cdn5.vectorstock.com/i/1000x1000/04/09/flowers-banner-vector-1120409.jpg);
+  height: 40px;
+  background-position: 50% 50%;
+  border: none;
 }

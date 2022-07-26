@@ -1,0 +1,9 @@
+.grid-template-home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-template-home img {
+  height: 90%;
+  width: 90%;
+}
