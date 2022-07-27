@@ -1,11 +1,12 @@
 .banner {
   background-size: cover;
-
-  // background-color: #ffb6c1;
-  background-image: url(asset_path('banner-flower.png'));
   height: 200px;
   display: flex;
-  align-items: flex-end !important;
+  align-items: flex-end;
+}
+
+.flower {
+   background-image: url(asset_path('banner-flower.png'));
 }
 
 .banner p {
@@ -20,12 +21,7 @@
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   text-align: center;
   font-size: 60px;
-  padding-bottom: 12px;
-}
-
-.yoga {
-  height: 120px;
-
+  padding-bottom: 32px;
 }
 
 .banner-links a {
@@ -35,7 +31,6 @@
   font-size: 24px;
   padding: 0px 10px;
   justify-content: center;
-
 }
 
 .banner-links a:hover {
@@ -50,36 +45,4 @@
   font-size: 26px;
   text-decoration: underline overline #ffccf9;
   font-family: "Dancing Script", cursive;
-}
-
-.banner-flower {
-  mix-blend-mode: multiply;
-  width: 100%;
-  height: 40px;
-  // object-fit:cover;
-  object-fit: cover;
-
-}
-
-.flower-div {
-  width:100%;
-  height:60px;
-  position:relative;
-  overflow:hidden;
-}
-
-.flower-div img {
-  position:absolute;
-  top:0;
-  bottom:0;
-  margin: auto;
-  width:100%;
-  mix-blend-mode: multiply;
-}
-
-hr {
-	background-image: url(https://cdn5.vectorstock.com/i/1000x1000/04/09/flowers-banner-vector-1120409.jpg);
-  height: 40px;
-  background-position: 50% 50%;
-  border: none;
 }
