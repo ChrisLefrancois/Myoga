@@ -2,20 +2,29 @@
   display: flex;
   flex-direction: column;
 }
-.cours-carte {
+.cour-carte {
   border: 1px solid rgb(0, 0, 0);
-  border-radius: 8  px;
+  border-radius: 8px;
   margin-bottom: 16px;
+  padding: 16px;
   display: flex;
   justify-content: space-between;
-  background-color: #ffeeff;
+  background-color: rgba(251, 231, 239, 0.2);;
   box-shadow: 2px 5px rgba(0, 0, 0, 0.08);
   max-width: 1000px;
+  max-height: 300px;
 }
 
-.cours-carte img {
+.cour-carte-text {
+  display: block;
+  align-items: flex-end;
+}
+
+.cour-carte img {
   margin-top: 4px;
   margin-bottom: 4px;
+  max-height: 90%;
+  width: 30%;
 }
 
 .float-right {
